@@ -89,4 +89,4 @@ ENV/
 .ropeproject
 
 # Ignore test apikeys
-everlastly/apikeys.py
+everlastly/private_settings/

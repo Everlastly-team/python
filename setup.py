@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='everlastly',
-    version='1.0.5',
+    version='1.0.6',
     description='Everlastly API wrapper',
     long_description='Wrapper for Everlastly API. Allows to create trusted timestamp for any data. Async version in async_everlastly module.',
     url='https://github.com/Everlastly-team/python',
@@ -20,7 +20,7 @@ setup(
 
     # What does your project relate to?
     keywords='everlastly blockchain notarization',
-    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+    packages=find_packages(exclude=['contrib', 'docs', 'tests', 'private_settings']),
     install_requires=['requests'],
     
 )

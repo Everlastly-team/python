@@ -2,7 +2,7 @@ import json, sys
 
 from everlastly import Everlastly
 
-from apikeys import pub_key, priv_key
+from private_settings.apikeys import pub_key, priv_key
 
 print_positive, raise_on_errors = False, False
 e=Everlastly(pub_key, priv_key)
