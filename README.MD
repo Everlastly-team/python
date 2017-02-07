@@ -1,5 +1,5 @@
 # Everlastly
-Everlastly API for Python. Notarize data using the blockchain. Asynchronous version is [here](https://github.com/Everlastly-team/python-acync).
+Everlastly API for Python. Notarize data using the blockchain. Asynchronous version is [here](https://github.com/Everlastly-team/python-async).
 
 ## Installation
 ```
